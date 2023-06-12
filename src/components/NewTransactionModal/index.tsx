@@ -82,7 +82,7 @@ export function NewTransactionModal({
             type="number"
             placeholder="Preco"
             required
-            {...(register('price'), { valueAsNumber: true })}
+            {...register('price', { valueAsNumber: true })}
           />
           <input
             type="text"
