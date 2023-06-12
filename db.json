@@ -47,6 +47,14 @@
       "type": "income",
       "createdAt": "2023-06-12T21:15:03.325Z",
       "id": 6
+    },
+    {
+      "description": "Venda microondas",
+      "category": "venda",
+      "price": 500,
+      "type": "income",
+      "createdAt": "2023-06-12T21:27:39.070Z",
+      "id": 7
     }
   ]
 }
