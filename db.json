@@ -1,28 +1,52 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2023-06-09T18:38:39.128Z"
-        },
-        {
-            "id": 2,
-            "description": "Jantar em familia",
-            "type": "outcome",
-            "category": "Pessoal",
-            "price": 200,
-            "createdAt": "2023-06-09T18:38:39.128Z"
-        },
-        {
-            "id": 3,
-            "description": "Curso de investimento",
-            "type": "outcome",
-            "category": "Pessoal",
-            "price": 1200,
-            "createdAt": "2023-06-09T18:38:39.128Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-06-09T18:38:39.128Z"
+    },
+    {
+      "id": 2,
+      "description": "Jantar em familia",
+      "type": "outcome",
+      "category": "Pessoal",
+      "price": 200,
+      "createdAt": "2023-06-09T18:38:39.128Z"
+    },
+    {
+      "id": 3,
+      "description": "Curso de investimento",
+      "type": "outcome",
+      "category": "Pessoal",
+      "price": 1200,
+      "createdAt": "2023-06-09T18:38:39.128Z"
+    },
+    {
+      "description": "Psicologa",
+      "category": "saude",
+      "price": 800,
+      "type": "outcome",
+      "createdAt": "2023-06-12T21:09:12.108Z",
+      "id": 4
+    },
+    {
+      "description": "Venda microondas",
+      "category": "venda",
+      "price": 250,
+      "type": "income",
+      "createdAt": "2023-06-12T21:09:38.192Z",
+      "id": 5
+    },
+    {
+      "description": "Mercado",
+      "category": "compra",
+      "price": 500,
+      "type": "income",
+      "createdAt": "2023-06-12T21:15:03.325Z",
+      "id": 6
+    }
+  ]
 }
