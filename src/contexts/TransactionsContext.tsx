@@ -35,8 +35,8 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
   async function fetchTransactions(query?: string) {
     const response = await api.get('transactions', {
       params: {
-        sort: 'createdAt',
-        order: 'desc',
+        _sort: 'createdAt',
+        _order: 'desc',
         q: query,
       },
     })
@@ -55,7 +55,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
       createdAt: new Date(),
     })
 
-    setTransactios((state) => [response.data, ...state])
+    setTransactios((state) => [...state, response.data])
   }
 
   useEffect(() => {
