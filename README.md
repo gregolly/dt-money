@@ -4,4 +4,4 @@ Esse projeto faz parte do bootcamp de programação da Rocketseat. Esse projeto 
 
 ### Como usar
 
-Copie a url do projeto, e use o comando `git clone url-do-projeto` e depois so acessar a pasta no terminal e rodar `npm install`, feito isso entao use o comando `npm run dev` e pronto, voce tera acesso ao frontend da aplicao. Para usar a fake api do projeto voce precisar rodar o comando `npm run dev:server`.
+Copie a URL do projeto e use o comando git clone url-do-projeto. Em seguida, só acessar a pasta no terminal e rodar npm install. Feito isso, então use o comando npm run dev e pronto! Você terá acesso ao frontend da aplicação. Para usar a fake API do projeto, você precisará rodar o comando npm run dev:server.
