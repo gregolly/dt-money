@@ -24,7 +24,13 @@ const newTransactionFormSecham = z.object({
 
 type NewTransactionFormInputs = z.infer<typeof newTransactionFormSecham>
 
-export function NewTransactionModal() {
+interface NewTransactionModalProps {
+  onCloseModal: (value: boolean) => void
+}
+
+export function NewTransactionModal({
+  onCloseModal,
+}: NewTransactionModalProps) {
   const { createTransaction } = useContext(TransactionsContext)
 
   const {
@@ -49,6 +55,8 @@ export function NewTransactionModal() {
       price,
       type,
     })
+
+    onCloseModal(false)
 
     reset()
   }
